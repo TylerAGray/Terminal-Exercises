@@ -1,0 +1,71 @@
+Terminal Exercises
+Part I
+1. make a directory called first
+	tyler@Tyler:~$ mkdir first
+
+2. change directory to the first folder
+	tyler@Tyler:~$ cd /home/tyler/first
+
+3. create a file called person.txt
+	tyler@Tyler:~/first$ touch person.txt
+
+4. change the name of person.txt to another.txt
+	tyler@Tyler:~/first$ mv person.txt another.txt
+
+5. make a copy of the another.txt file and call it copy.txt
+tyler@Tyler:~/first$ cp another.txt copy.txt
+
+6. remove the copy.txt file
+tyler@Tyler:~/first$ rm copy.txt
+
+7. make a copy of the first folder and call it second
+	tyler@Tyler:~/first$ cp -r first second
+
+8. delete the second folder
+	tyler@Tyler:~/first$ rm -r second
+
+Part II
+1. What does the man command do? Type in man rm. How do you scroll and get out?
+The man command in Unix-like systems is used to display manual pages for various commands and utilities. 
+ When you type man followed by a command name, such as man rm, it opens a detailed manual page within the terminal. 
+ You can navigate through the manual page using arrow keys or search for specific text using the / key. To exit the manual page and return to the command prompt, simply press the q key.
+
+
+
+2. Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+	For the ls command, the -l flag provides a detailed list view, including file permissions, number of links, owner, group, file size, and modification time. 
+ The -a flag shows all files, including hidden files starting with the ".". 
+
+3. How do you jump between words in the terminal?
+To jump between words in the terminal, you can use the Option (or Alt) key + arrow keys.
+
+4. How do you get to the end of a line in terminal?
+To get to the end of a line in the terminal, you can press Ctrl + E.
+
+5. How do you move your cursor to the beginning in terminal?
+To move your cursor to the beginning of a line in the terminal, you can press Ctrl + A.
+
+6. How do you delete a word (without pressing backspace multiple times) in terminal?
+To delete a word in the terminal, you can press Option (or Alt) + Backspace.
+
+7. What is the difference between a terminal and shell?
+A terminal is a program that allows users to interact with their computer using text-based commands. 
+A shell is a specific type of terminal program that interprets and executes user commands. Essentially, a shell is a command-line interpreter.
+
+8. What is an absolute path?
+An absolute path specifies the exact location of a file or directory starting from the root directory. For example, /home/user/Documents/file.txt is an absolute path.
+
+9. What is an relative path?
+A relative path specifies the location of a file or directory relative to the current working directory. 
+For example, Documents/file.txt is a relative path, assuming the current working directory is /home/user.
+
+10. What is a flag? Give three examples of flags you have used.
+A flag, also known as an option or switch, is a command-line argument used to modify the behavior of a command. Three examples of flags are:
+-r flag in rm command: Deletes directories and their contents recursively.
+-f flag in rm command: Forces the removal of files without prompting for confirmation.
+-l flag in ls command: Displays detailed file information in long format.
+11. What do the r and f flags do with the rm command?
+With the rm command:
+The -r flag stands for "recursive" and allows removal of directories and their contents.
+The -f flag stands for "force" and allows removal of files without confirmation prompts.
+	
